@@ -1,0 +1,9 @@
+# task is to create a code that takes in a url input and retrives first 10,000 youtube links found for the given search.
+
+# for that first we can initialize the url to a variable.
+# 2. Need to first send a request to the required url to get search results. So i can implement the requests function to send a request.
+    To better optimize it, i'll convert that into a functions.
+# breaking down the code into several functions so that one function performs only one single task, rather than main doing everything.
+# since google has anti scraping measures and security. We can use one of google's apis to do the search, more specifially YOUTUBE DATA API as we need to scrape only the youtube links found when we search for that url
+# next up once we get the response we need to make sure to convert that data into the json and csv format
+# this conversion is pretty easy lol just need to import the libraries and file I/O concepts basics.

@@ -1,0 +1,37 @@
+csv file
+
+name, Phone number
+
+
+'''def search_name():
+    name = input("Find by first or last name? ")
+    if name.lower() == "first":
+        search_result = search_firstname()
+    elif name.lower() == "last":
+        search_result = search_lastname()
+    else:
+        return "Please select between first or last only"
+    return search_result'''
+
+    '''def search_firstname():
+    phonebook = []
+    name = input("Enter the first name you'd like to search: ")
+    with open("phonebook.csv") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            if row['first'].lower() == name.lower():
+                phonebook.append(row)
+
+    return phonebook
+
+
+def search_lastname():
+    phonebook = []
+    name = input("Enter the last name you'd like to search: ")
+    with open("phonebook.csv") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            if row['last'].lower() == name.lower():
+                phonebook.append(row)
+
+    return phonebook'''
